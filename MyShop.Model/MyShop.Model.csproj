@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -40,8 +41,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\clsAuditable.cs" />
+    <Compile Include="Abstract\IAuditable.cs" />
+    <Compile Include="Model\clsFooter.cs" />
+    <Compile Include="Model\clsMenu.cs" />
+    <Compile Include="Model\clsMenuGroup.cs" />
+    <Compile Include="Model\clsOrder.cs" />
+    <Compile Include="Model\clsOrderDetail.cs" />
+    <Compile Include="Model\clsPage.cs" />
+    <Compile Include="Model\clsPost.cs" />
+    <Compile Include="Model\clsPostCategory.cs" />
+    <Compile Include="Model\clsProduct.cs" />
+    <Compile Include="Model\clsProductCategory.cs" />
+    <Compile Include="Model\clsPostTag.cs" />
+    <Compile Include="Model\clsProductTag.cs" />
+    <Compile Include="Model\clsSlide.cs" />
+    <Compile Include="Model\clsSupportOnline.cs" />
+    <Compile Include="Model\clsSystemConfig.cs" />
+    <Compile Include="Model\clsTag.cs" />
+    <Compile Include="Model\clsVisitorStatistic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
